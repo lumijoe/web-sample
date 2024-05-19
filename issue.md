@@ -38,3 +38,7 @@
 ・ctlr+shift+f
 
 ## 9 css 読み込み
+
+## 10 scss サスを使おう
+
+home.scss ファイルの作成、scss ファイル表示時の右下 watch sass をクリックして watching されると、コンパイルされた css は scss ファイルがある場所に css.map として保存される
