@@ -23,7 +23,10 @@
 ・p：段落
 ・br：改行
 
+## HTMLチェッカー（Chrome拡張機能, HTMLチェッカーサイト
+・https://validator.nu/#textarea
 
 
-
+## 並びがおかしい時揃える
+・ctlr+shift+f
 
