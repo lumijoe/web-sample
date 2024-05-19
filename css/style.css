@@ -4,67 +4,114 @@
        　　　　　reset
 ======================================*/
 *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
-    all: unset;
-    display: revert;
+  all: unset;
+  display: revert;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    -webkit-text-size-adjust: 100%;    /* 勝手に文字が拡大されるのを防ぐ */
-    /* 以下、案件ごとに適宜変更 */
-    color: #fff;
-    background-color: #122444;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  -webkit-text-size-adjust: 100%; /* 勝手に文字が拡大されるのを防ぐ */
+  /* 以下、案件ごとに適宜変更 */
+  color: #fff;
+  background-color: #122444;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    sans-serif;
 }
 
-body, h1, h2, h3, h4, h5, table, th, td, ul, li, ol, dl, dt, dd, form, p {
-    margin: 0px;
-    padding: 0px;
-    font-weight: 400;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: none;
-    border-left-style: none;
-    list-style-type: none;
-    line-height: 1;
-    /* 以下、案件ごとに適宜変更 */
-    letter-spacing: 0.1em;
-    font-size: 16px;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+table,
+th,
+td,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+form,
+p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  list-style-type: none;
+  line-height: 1;
+  /* 以下、案件ごとに適宜変更 */
+  letter-spacing: 0.1em;
+  font-size: 16px;
 }
 
-input, textArea, select, button {
-    appearance: none;
-    -webkit-appearance: none;    /* iOS系のスタイルを外す */
+input,
+textArea,
+select,
+button {
+  appearance: none;
+  -webkit-appearance: none; /* iOS系のスタイルを外す */
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 figure {
-    margin: 0px;
+  margin: 0px;
 }
 
-img, iframe {
-    width: 100%;
-    height: auto;
-    vertical-align: top;    /* 意図しない余白の削除 */
+img,
+iframe {
+  width: 100%;
+  height: auto;
+  vertical-align: top; /* 意図しない余白の削除 */
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 a {
-    text-decoration: none;
-    /* 以下、案件ごとに適宜変更 */
-    letter-spacing: 0.05em;
-    color: #fff;
+  text-decoration: none;
+  /* 以下、案件ごとに適宜変更 */
+  letter-spacing: 0.05em;
+  color: #fff;
 }
 
 /* ===================================
             header
 ======================================*/
+.l-body {
+  text-align: center;
+}
+.c-heading {
+  font-weight: bold;
+}
+.c-heading__primary {
+  font-size: 24px;
+}
+.c-heading__secondary {
+  font-size: 18px;
+}
+.c-link--tiger {
+  background-color: #ffd700;
+}
+.c-link--hiyoko {
+  background-color: #fffacd;
+}
+.c-link--buncho {
+  background-color: #ffc0cb;
+}
+.c-profile-section {
+  padding: 20px;
+}
